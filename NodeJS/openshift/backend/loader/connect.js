@@ -1,7 +1,7 @@
 // Requries
 const mongoose = require('mongoose');
 
-if (process.env.TEST == 'true') {
+if (process.env.DATABASE_SERVICE_NAME) {
     console.log("Environment variables are live!");
 
     // Variables
@@ -23,4 +23,5 @@ if (process.env.TEST == 'true') {
     });
 } else {
     console.log("Environment variables are unaccessable. Not attempting to connect to DB.");
+    console.log("Error: Couldn't find process.env.DATABASE_SERVICE_NAME");
 }

@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "1.0.0",
-  "description": "Personal Website - Frontend",
+  "description": "Frontend",
   "author": "Sebastião Barros (@Zebiano)",
   "private": true,
   "scripts": {

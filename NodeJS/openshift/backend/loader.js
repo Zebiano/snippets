@@ -6,6 +6,5 @@ require('./loader/connect.js'); // Connection to database
 
 // Routes
 server.app.get('/', function (req, res) {
-    //console.log("Fuck you");
-    res.send("hehe");
+    res.sendStatus(200);
 });
