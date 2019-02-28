@@ -1,0 +1,21 @@
+{
+  "name": "development",
+  "version": "1.0.0",
+  "description": "My lovely Nuxt.js project",
+  "author": "Sebastião Barros (@Zebiano)",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "sh deploy.sh"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
